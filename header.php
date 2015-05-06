@@ -29,7 +29,6 @@ if (strpos($url,'page') !== false) {
     <?php endif; ?>
     <?php $this->header("generator=&template="); ?>
   </head>
-<body> 
 <body class="nav-closed <?php if ($this->is('post') or $this->is('page')): ?>post-template<?php endif; ?> <?php if ($this->is('archive') or $paged === true): ?>paged archive-template<?php endif; ?>">
 <div class="nav">
     <h3 class="nav-title">Menu</h3>
