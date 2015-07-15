@@ -18,7 +18,6 @@
                         </footer>
                     </article>
                     <?php endwhile; ?>
-            </div>
             <nav class="pagination" role="pagination">
                 <?php $this->pageLink('← Newer Posts','prev'); ?>
                 <?php $this->pageLink('Older Posts →','next'); ?>
